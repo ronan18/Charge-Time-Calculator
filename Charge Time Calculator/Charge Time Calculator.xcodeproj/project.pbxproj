@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C58CCE0728B6687C0037DC09 /* Charge_Time_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE0628B6687C0037DC09 /* Charge_Time_CalculatorApp.swift */; };
+		C58CCE0928B6687C0037DC09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE0828B6687C0037DC09 /* ContentView.swift */; };
+		C58CCE0B28B6687D0037DC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58CCE0A28B6687D0037DC09 /* Assets.xcassets */; };
+		C58CCE0E28B6687D0037DC09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58CCE0D28B6687D0037DC09 /* Preview Assets.xcassets */; };
+		C58CCE1D28B668C20037DC09 /* ChargeTimeUI.docc in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE1C28B668C20037DC09 /* ChargeTimeUI.docc */; };
+		C58CCE1E28B668C20037DC09 /* ChargeTimeUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C58CCE1B28B668C20037DC09 /* ChargeTimeUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C58CCE2128B668C20037DC09 /* ChargeTimeUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58CCE1928B668C20037DC09 /* ChargeTimeUI.framework */; };
+		C58CCE2228B668C20037DC09 /* ChargeTimeUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C58CCE1928B668C20037DC09 /* ChargeTimeUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C58CCE2828B668CE0037DC09 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE2728B668CE0037DC09 /* HomeScreen.swift */; };
+		C58CCE2A28B66AC90037DC09 /* FloorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE2928B66AC90037DC09 /* FloorIcon.swift */; };
+		C58CCE3428B66D2E0037DC09 /* ChargeTimeLogic.docc in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE3328B66D2E0037DC09 /* ChargeTimeLogic.docc */; };
+		C58CCE3528B66D2E0037DC09 /* ChargeTimeLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = C58CCE3228B66D2E0037DC09 /* ChargeTimeLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C58CCE3828B66D2E0037DC09 /* ChargeTimeLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58CCE3028B66D2E0037DC09 /* ChargeTimeLogic.framework */; };
+		C58CCE3928B66D2E0037DC09 /* ChargeTimeLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C58CCE3028B66D2E0037DC09 /* ChargeTimeLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C58CCE3E28B66D380037DC09 /* ChargeLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE3D28B66D380037DC09 /* ChargeLogic.swift */; };
+		C58CCE4028B66E8C0037DC09 /* ChargeTimeLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58CCE3028B66D2E0037DC09 /* ChargeTimeLogic.framework */; };
+		C58CCE4528B670740037DC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58CCE0A28B6687D0037DC09 /* Assets.xcassets */; };
+		C58CCE4728B671900037DC09 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE4628B671900037DC09 /* AppState.swift */; };
+		C58CCE4928B67AFB0037DC09 /* AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CCE4828B67AFB0037DC09 /* AppIntents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C58CCE1F28B668C20037DC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58CCDFB28B6687C0037DC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58CCE1828B668C20037DC09;
+			remoteInfo = ChargeTimeUI;
+		};
+		C58CCE3628B66D2E0037DC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58CCDFB28B6687C0037DC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58CCE2F28B66D2E0037DC09;
+			remoteInfo = ChargeTimeLogic;
+		};
+		C58CCE4228B66E8C0037DC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58CCDFB28B6687C0037DC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58CCE2F28B66D2E0037DC09;
+			remoteInfo = ChargeTimeLogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C58CCE2628B668C20037DC09 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C58CCE3928B66D2E0037DC09 /* ChargeTimeLogic.framework in Embed Frameworks */,
+				C58CCE2228B668C20037DC09 /* ChargeTimeUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C58CCE0328B6687C0037DC09 /* Charge Time Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charge Time Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58CCE0628B6687C0037DC09 /* Charge_Time_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charge_Time_CalculatorApp.swift; sourceTree = "<group>"; };
+		C58CCE0828B6687C0037DC09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C58CCE0A28B6687D0037DC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C58CCE0D28B6687D0037DC09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C58CCE1928B668C20037DC09 /* ChargeTimeUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChargeTimeUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58CCE1B28B668C20037DC09 /* ChargeTimeUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChargeTimeUI.h; sourceTree = "<group>"; };
+		C58CCE1C28B668C20037DC09 /* ChargeTimeUI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ChargeTimeUI.docc; sourceTree = "<group>"; };
+		C58CCE2728B668CE0037DC09 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C58CCE2928B66AC90037DC09 /* FloorIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorIcon.swift; sourceTree = "<group>"; };
+		C58CCE3028B66D2E0037DC09 /* ChargeTimeLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChargeTimeLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58CCE3228B66D2E0037DC09 /* ChargeTimeLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChargeTimeLogic.h; sourceTree = "<group>"; };
+		C58CCE3328B66D2E0037DC09 /* ChargeTimeLogic.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ChargeTimeLogic.docc; sourceTree = "<group>"; };
+		C58CCE3D28B66D380037DC09 /* ChargeLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeLogic.swift; sourceTree = "<group>"; };
+		C58CCE4628B671900037DC09 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C58CCE4828B67AFB0037DC09 /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C58CCE0028B6687C0037DC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE3828B66D2E0037DC09 /* ChargeTimeLogic.framework in Frameworks */,
+				C58CCE2128B668C20037DC09 /* ChargeTimeUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58CCE1628B668C20037DC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE4028B66E8C0037DC09 /* ChargeTimeLogic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58CCE2D28B66D2E0037DC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C58CCDFA28B6687C0037DC09 = {
+			isa = PBXGroup;
+			children = (
+				C58CCE0528B6687C0037DC09 /* Charge Time Calculator */,
+				C58CCE1A28B668C20037DC09 /* ChargeTimeUI */,
+				C58CCE3128B66D2E0037DC09 /* ChargeTimeLogic */,
+				C58CCE0428B6687C0037DC09 /* Products */,
+				C58CCE3F28B66E8C0037DC09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C58CCE0428B6687C0037DC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C58CCE0328B6687C0037DC09 /* Charge Time Calculator.app */,
+				C58CCE1928B668C20037DC09 /* ChargeTimeUI.framework */,
+				C58CCE3028B66D2E0037DC09 /* ChargeTimeLogic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58CCE0528B6687C0037DC09 /* Charge Time Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				C58CCE0628B6687C0037DC09 /* Charge_Time_CalculatorApp.swift */,
+				C58CCE0828B6687C0037DC09 /* ContentView.swift */,
+				C58CCE2728B668CE0037DC09 /* HomeScreen.swift */,
+				C58CCE4628B671900037DC09 /* AppState.swift */,
+				C58CCE4828B67AFB0037DC09 /* AppIntents.swift */,
+				C58CCE0A28B6687D0037DC09 /* Assets.xcassets */,
+				C58CCE0C28B6687D0037DC09 /* Preview Content */,
+			);
+			path = "Charge Time Calculator";
+			sourceTree = "<group>";
+		};
+		C58CCE0C28B6687D0037DC09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C58CCE0D28B6687D0037DC09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C58CCE1A28B668C20037DC09 /* ChargeTimeUI */ = {
+			isa = PBXGroup;
+			children = (
+				C58CCE1B28B668C20037DC09 /* ChargeTimeUI.h */,
+				C58CCE1C28B668C20037DC09 /* ChargeTimeUI.docc */,
+				C58CCE2928B66AC90037DC09 /* FloorIcon.swift */,
+			);
+			path = ChargeTimeUI;
+			sourceTree = "<group>";
+		};
+		C58CCE3128B66D2E0037DC09 /* ChargeTimeLogic */ = {
+			isa = PBXGroup;
+			children = (
+				C58CCE3228B66D2E0037DC09 /* ChargeTimeLogic.h */,
+				C58CCE3328B66D2E0037DC09 /* ChargeTimeLogic.docc */,
+				C58CCE3D28B66D380037DC09 /* ChargeLogic.swift */,
+			);
+			path = ChargeTimeLogic;
+			sourceTree = "<group>";
+		};
+		C58CCE3F28B66E8C0037DC09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C58CCE1428B668C20037DC09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE1E28B668C20037DC09 /* ChargeTimeUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58CCE2B28B66D2E0037DC09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE3528B66D2E0037DC09 /* ChargeTimeLogic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C58CCE0228B6687C0037DC09 /* Charge Time Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58CCE1128B6687D0037DC09 /* Build configuration list for PBXNativeTarget "Charge Time Calculator" */;
+			buildPhases = (
+				C58CCDFF28B6687C0037DC09 /* Sources */,
+				C58CCE0028B6687C0037DC09 /* Frameworks */,
+				C58CCE0128B6687C0037DC09 /* Resources */,
+				C58CCE2628B668C20037DC09 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58CCE2028B668C20037DC09 /* PBXTargetDependency */,
+				C58CCE3728B66D2E0037DC09 /* PBXTargetDependency */,
+			);
+			name = "Charge Time Calculator";
+			productName = "Charge Time Calculator";
+			productReference = C58CCE0328B6687C0037DC09 /* Charge Time Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C58CCE1828B668C20037DC09 /* ChargeTimeUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58CCE2328B668C20037DC09 /* Build configuration list for PBXNativeTarget "ChargeTimeUI" */;
+			buildPhases = (
+				C58CCE1428B668C20037DC09 /* Headers */,
+				C58CCE1528B668C20037DC09 /* Sources */,
+				C58CCE1628B668C20037DC09 /* Frameworks */,
+				C58CCE1728B668C20037DC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58CCE4328B66E8C0037DC09 /* PBXTargetDependency */,
+			);
+			name = ChargeTimeUI;
+			productName = ChargeTimeUI;
+			productReference = C58CCE1928B668C20037DC09 /* ChargeTimeUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C58CCE2F28B66D2E0037DC09 /* ChargeTimeLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58CCE3A28B66D2E0037DC09 /* Build configuration list for PBXNativeTarget "ChargeTimeLogic" */;
+			buildPhases = (
+				C58CCE2B28B66D2E0037DC09 /* Headers */,
+				C58CCE2C28B66D2E0037DC09 /* Sources */,
+				C58CCE2D28B66D2E0037DC09 /* Frameworks */,
+				C58CCE2E28B66D2E0037DC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChargeTimeLogic;
+			productName = ChargeTimeLogic;
+			productReference = C58CCE3028B66D2E0037DC09 /* ChargeTimeLogic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C58CCDFB28B6687C0037DC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C58CCE0228B6687C0037DC09 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					C58CCE1828B668C20037DC09 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					C58CCE2F28B66D2E0037DC09 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = C58CCDFE28B6687C0037DC09 /* Build configuration list for PBXProject "Charge Time Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C58CCDFA28B6687C0037DC09;
+			productRefGroup = C58CCE0428B6687C0037DC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58CCE0228B6687C0037DC09 /* Charge Time Calculator */,
+				C58CCE1828B668C20037DC09 /* ChargeTimeUI */,
+				C58CCE2F28B66D2E0037DC09 /* ChargeTimeLogic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C58CCE0128B6687C0037DC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE0E28B6687D0037DC09 /* Preview Assets.xcassets in Resources */,
+				C58CCE0B28B6687D0037DC09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58CCE1728B668C20037DC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE4528B670740037DC09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58CCE2E28B66D2E0037DC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C58CCDFF28B6687C0037DC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE0928B6687C0037DC09 /* ContentView.swift in Sources */,
+				C58CCE4928B67AFB0037DC09 /* AppIntents.swift in Sources */,
+				C58CCE0728B6687C0037DC09 /* Charge_Time_CalculatorApp.swift in Sources */,
+				C58CCE2828B668CE0037DC09 /* HomeScreen.swift in Sources */,
+				C58CCE4728B671900037DC09 /* AppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58CCE1528B668C20037DC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE1D28B668C20037DC09 /* ChargeTimeUI.docc in Sources */,
+				C58CCE2A28B66AC90037DC09 /* FloorIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58CCE2C28B66D2E0037DC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58CCE3E28B66D380037DC09 /* ChargeLogic.swift in Sources */,
+				C58CCE3428B66D2E0037DC09 /* ChargeTimeLogic.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C58CCE2028B668C20037DC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58CCE1828B668C20037DC09 /* ChargeTimeUI */;
+			targetProxy = C58CCE1F28B668C20037DC09 /* PBXContainerItemProxy */;
+		};
+		C58CCE3728B66D2E0037DC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58CCE2F28B66D2E0037DC09 /* ChargeTimeLogic */;
+			targetProxy = C58CCE3628B66D2E0037DC09 /* PBXContainerItemProxy */;
+		};
+		C58CCE4328B66E8C0037DC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58CCE2F28B66D2E0037DC09 /* ChargeTimeLogic */;
+			targetProxy = C58CCE4228B66E8C0037DC09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C58CCE0F28B6687D0037DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C58CCE1028B6687D0037DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C58CCE1228B6687D0037DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20221;
+				DEVELOPMENT_ASSET_PATHS = "\"Charge Time Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 7M5JDZSYX7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronanfuruta.Charge-Time-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C58CCE1328B6687D0037DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20221;
+				DEVELOPMENT_ASSET_PATHS = "\"Charge Time Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 7M5JDZSYX7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronanfuruta.Charge-Time-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C58CCE2428B668C20037DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7M5JDZSYX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronanfuruta.ChargeTimeUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C58CCE2528B668C20037DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7M5JDZSYX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronanfuruta.ChargeTimeUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C58CCE3B28B66D2E0037DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7M5JDZSYX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronanfuruta.ChargeTimeLogic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C58CCE3C28B66D2E0037DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7M5JDZSYX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronanfuruta.ChargeTimeLogic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C58CCDFE28B6687C0037DC09 /* Build configuration list for PBXProject "Charge Time Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58CCE0F28B6687D0037DC09 /* Debug */,
+				C58CCE1028B6687D0037DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58CCE1128B6687D0037DC09 /* Build configuration list for PBXNativeTarget "Charge Time Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58CCE1228B6687D0037DC09 /* Debug */,
+				C58CCE1328B6687D0037DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58CCE2328B668C20037DC09 /* Build configuration list for PBXNativeTarget "ChargeTimeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58CCE2428B668C20037DC09 /* Debug */,
+				C58CCE2528B668C20037DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58CCE3A28B66D2E0037DC09 /* Build configuration list for PBXNativeTarget "ChargeTimeLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58CCE3B28B66D2E0037DC09 /* Debug */,
+				C58CCE3C28B66D2E0037DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C58CCDFB28B6687C0037DC09 /* Project object */;
+}
